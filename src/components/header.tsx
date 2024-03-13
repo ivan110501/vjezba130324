@@ -1,9 +1,10 @@
 const Header = () => {
   return (
     <>
-      <header>
-        <h1>Ovo je neki header</h1>
-      </header>
+      <nav>
+        <a href="">Home</a>
+        <a href="">Blog</a>
+      </nav>
     </>
   );
 };
