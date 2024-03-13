@@ -1,0 +1,13 @@
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--border--rounded-1);
+  color: var(--white);
+  font-weight: bolder;
+  width: 10rem;
+  height: 5rem;
+  font-size: 2.5rem;
+  border: 3px solid var(--green-800);
+  background-color: var(--green-400);
+}

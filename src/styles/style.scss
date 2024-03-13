@@ -1,0 +1,33 @@
+:root {
+  //colors
+  --gray-300: #d3d3d3;
+  --green-800: #006400;
+  --green-400: #128d12;
+  --white: #ffffff;
+  --black: #000000;
+
+  --border--rounded-1: 1rem;
+  --border--round-025: 0.25rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  width: 60rem;
+  height: 95vh;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+@import url(./components/layout.scss);
+@import url(./components/button.scss);
+@import url(./components/number.scss);
+@import url(./components/grid.scss);
+@import url(./components/result.scss);
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
